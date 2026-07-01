@@ -1,0 +1,34 @@
+semar_venv/
+venv/
+ENV/
+env/
+
+# --- PYTHON CACHE & COMPILED FILES ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+htmlcov/
+.tox/
+.flake8
+.mypy_cache/
+.pytest_cache/
+
+# --- PYQT / QT DESIGNER SPECIFIC ---
+*.log
+*.bak
+
+# --- OPERATING SYSTEM FILES ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- IDE & EDITORS ---
+.vscode/
+
+.idea/
